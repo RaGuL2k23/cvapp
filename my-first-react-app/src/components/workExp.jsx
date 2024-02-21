@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { v4 as uuid } from "uuid";
+ 
 const workFieldInputs = [
-  { id: uuid(), name: "Company Name" ,type:'text'},
-  { id: uuid(), name: "Position  Title",type:'text' },
-  { id: uuid(), name: "responsibilities of your jobs",type:'text' },
-  { id: uuid(), name: "From Date", type: "date" },
-  { id: uuid(), name: "To Date", type: "date" },
+  { id: Number.parseInt(Math.random()*33453), name: "Company Name" ,type:'text'},
+  { id: Number.parseInt(Math.random()*33453), name: "Position  Title",type:'text' },
+  { id: Number.parseInt(Math.random()*33453), name: "responsibilities of your jobs",type:'text' },
+  { id: Number.parseInt(Math.random()*33453), name: "From Date", type: "date" },
+  { id: Number.parseInt(Math.random()*33453), name: "To Date", type: "date" },
 ];
 // set value to and obj with prop id { id: value }
 const   initialState = {};
